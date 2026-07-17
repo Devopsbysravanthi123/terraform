@@ -1,0 +1,8 @@
+project_id = "flipkart10-prod"
+region = "us-central1"
+local_vpc_name = "my-vpc"
+local_subnet_name = "my-subnet"
+local_subnet_cidr = "10.7.0.0/16"
+local_vm_name = "my-vm"
+local_machine_type = "e2-medium"
+local_zone = "us-central1-a"
