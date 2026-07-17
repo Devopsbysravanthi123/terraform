@@ -5,7 +5,7 @@ resource "google_compute_instance" "vm-1" {
 
   boot_disk {
     initialize_params {
-      image = "debian-cloud/debian-12"
+      image = "ubuntu-os-cloud/ubuntu-2204-lts"
     }
   }  
 
@@ -17,3 +17,4 @@ resource "google_compute_instance" "vm-1" {
     }  
   }
 }
+
